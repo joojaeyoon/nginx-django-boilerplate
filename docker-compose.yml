@@ -28,7 +28,6 @@ services:
       - ./.env.dev
     depends_on:
       - db
-
   nginx:
     build: ./nginx
     ports:
